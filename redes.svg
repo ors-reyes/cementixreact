@@ -13,25 +13,18 @@
 
 <style type="text/css">
 	.fnd{fill:transparent;}
-	/* .insta{fill-rule:evenodd;clip-rule:evenodd;fill:#FF0000;cursor: pointer;}
-	.face{fill-rule:evenodd;clip-rule:evenodd;fill:#0000FF;}
-	.whatsapp{fill-rule:evenodd;clip-rule:evenodd;fill:#00FF00;}
-	.instaHover{fill: rgba(0, 0, 0, 0.1);cursor: pointer;}
-	.instaHover:hover ~ .insta{fill: #000;}
-	.insta:hover{fill: #000;} */
-	.face,.insta,.whast{fill-rule:evenodd;clip-rule:evenodd;fill:#000;transition: 0.5s;cursor: pointer;}
+	.face,.insta,.whast{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;transition: 0.5s;cursor: pointer;}
 	.faceHover,.instaHover,.whastHover{fill:transparent;cursor: pointer;}
-	.face:hover,.insta:hover,.whast:hover{fill: #fff;filter: drop-shadow(0px 0px 10px gainsboro);}
-
+	.face:hover,.insta:hover,.whast:hover{fill: #2948F7;}
 	
 	.faceHover:hover ~ .face{
-		fill: #fff ;filter: drop-shadow(0px 0px 10px #000);
+		fill: #2948F7 ;;
 	}
 	.instaHover:hover ~ .insta{
-		fill: #fff ;filter: drop-shadow(0px 0px 10px #000);
+		fill: #2948F7 ;;
 	}
 	.whastHover:hover ~ .whast{
-		fill: #fff ;filter: drop-shadow(0px 0px 10px #000);
+		fill: #2948F7 ;;
 	}
 </style>
 
@@ -43,10 +36,10 @@
 	const instaHover = document.querySelector(".instaHover")
 	const whastHover = document.querySelector(".whastHover")
 	whatsapp.addEventListener("click", ()=>window.open("https://wa.me/595981751986", '_blank'))
-	whastHover.addEventListener("click", ()=>window.open("https://wa.me/595994441044", '_blank'))
+	whastHover.addEventListener("click", ()=>window.open("https://wa.me/595981751986", '_blank'))
 	insta.addEventListener("click", ()=>window.open("https://www.instagram.com/torreboggiani/?igsh=MXI4eHh2Mng2MXVycw%3D%3D", '_blank'))
 	instaHover.addEventListener("click", ()=>window.open("https://www.instagram.com/torreboggiani/?igsh=MXI4eHh2Mng2MXVycw%3D%3D", '_blank'))
-	face.addEventListener("click", ()=>window.open("https://www.face.com/profile.php?id=100069916925603", '_blank'))
-	faceHover.addEventListener("click", ()=>window.open("https://www.face.com/profile.php?id=100069916925603", '_blank'))
+	face.addEventListener("click", ()=>window.open("https://www.facebook.com", '_blank'))
+	faceHover.addEventListener("click", ()=>window.open("https://www.facebook.com", '_blank'))
 </script>
 </svg>
