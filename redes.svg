@@ -13,7 +13,7 @@
 
 <style type="text/css">
 	.fnd{fill:transparent;}
-	.face,.insta,.whast{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;transition: 0.5s;cursor: pointer;}
+	.face,.insta,.whast{fill-rule:evenodd;clip-rule:evenodd;fill:gray;transition: 0.5s;cursor: pointer;}
 	.faceHover,.instaHover,.whastHover{fill:transparent;cursor: pointer;}
 	.face:hover,.insta:hover,.whast:hover{fill: #2948F7;}
 	
